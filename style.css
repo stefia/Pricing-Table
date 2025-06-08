@@ -140,6 +140,7 @@ body {
 @media (max-width: 640px) {
     .pricing__promo-full {
         width: 100%;
+        padding: 0 10px;
     }
     .pricing__wrapper {
         width: 100%;
@@ -151,7 +152,7 @@ body {
         display: none;
     }
     .text--price {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .pricing__table {
         width: 100%;
@@ -163,5 +164,8 @@ body {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+    }
+    .pricing__table thead th.popular-header {
+        padding: 10px 14px 14px;
     }
 }
