@@ -130,7 +130,6 @@ body {
     color: #fff;
 }
 
-
 @media (max-width: 1024px) {
     .pricing__table th:nth-child(2),
     .pricing__table td:nth-child(2) {
@@ -139,15 +138,25 @@ body {
 }
 
 @media (max-width: 640px) {
+    .pricing__promo-full {
+        width: 100%;
+    }
+    .pricing__wrapper {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 16px; 
+    }
     .pricing__table th:nth-child(3),
     .pricing__table td:nth-child(3) {
         display: none;
     }
+    .text--price {
+        font-size: 3rem;
+    }
     .pricing__table {
-        display: block;
+        width: 100%;
+        margin: 0;
         table-layout: fixed;
-        width: 50%;
-        margin: 20px 15px 50px;
     }
     .pricing__table th.row--name {
         max-width: 130px;
