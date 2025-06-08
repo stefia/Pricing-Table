@@ -154,6 +154,9 @@ body {
     .text--price {
         font-size: 2rem;
     }
+    .text--body, .text--body-bd {
+        font-size: 0.875rem;
+    }
     .pricing__table {
         width: 100%;
         margin: 0;
@@ -165,7 +168,11 @@ body {
         overflow: hidden;
         text-overflow: ellipsis;
     }
-    .pricing__table thead th.popular-header {
-        padding: 10px 14px 14px;
+    .pricing__table thead th.popular-header,
+    .pricing__table thead th, .pricing__table tfoot td {
+        padding: 10px 10px 14px;
+    }
+    .btn {
+        padding: 0 10px 0;
     }
 }
